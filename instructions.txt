@@ -1,4 +1,10 @@
 pip install django
 django-admin startproject mysite .
 python manage.py startapp job_application
+    - new directory created
 python manage.py runserver
+    - to run an app on browser
+python manage.py makemigrations
+    - codes will be added to __init__initial
+python manage.py migrate
+    - job application fields will be visible after exec this
