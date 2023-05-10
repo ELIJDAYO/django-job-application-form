@@ -8,3 +8,6 @@ python manage.py makemigrations
     - codes will be added to __init__initial
 python manage.py migrate
     - job application fields will be visible after exec this
+
+python manage.py createsuperuser
+    - localhost.../admin
