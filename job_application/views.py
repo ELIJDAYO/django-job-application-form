@@ -30,5 +30,9 @@ def index(request):
 
         else:
             for field in form:
-                print("Field Error:", field.name,  field.errors)
+                print("Field Error:", field.name, field.errors)
     return render(request, "index.html")
+
+
+def about(request):
+    return render(request, "about.html")
